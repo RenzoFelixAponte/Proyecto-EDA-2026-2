@@ -1,0 +1,18 @@
+== SkipList p=1/2
+  [OK]    casos borde (vacio, duplicados)
+  [OK]    5000 claves crecientes/decrecientes
+  [OK]    10 x 50000 operaciones vs std::set
+  comprobaciones: 585815  fallos: 0
+== SkipList p=1/4
+  [OK]    casos borde (vacio, duplicados)
+  [OK]    5000 claves crecientes/decrecientes
+  [OK]    10 x 50000 operaciones vs std::set
+  comprobaciones: 585815  fallos: 0
+== AVL
+  [OK]    casos borde (vacio, duplicados)
+  [OK]    5000 claves crecientes/decrecientes
+  [OK]    10 x 50000 operaciones vs std::set
+  comprobaciones: 585815  fallos: 0
+== AVL, 100000 claves en orden
+  [OK]    altura <= 1.44 log2(n + 2)
+TODAS LAS PRUEBAS PASARON
